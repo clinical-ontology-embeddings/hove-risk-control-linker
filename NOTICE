@@ -1,0 +1,24 @@
+NOTICE
+
+HOVE Risk-Control Linker is a public model release package for severe-error
+and high-distance false-positive risk control in clinical concept linking.
+
+Repository code, documentation, tests, release scripts, and public aggregate
+metadata are distributed under the MIT License:
+- https://opensource.org/license/mit
+- LICENSE
+
+The packaged checkpoint and config are released as public research artifacts in
+this repository. They do not include row-level predictions, training rows,
+clinical text, patient identifiers, document identifiers, mention offsets, or
+the concept-memory bundle.
+
+External resources remain governed by their own terms:
+- MIMIC-IV-Note: https://physionet.org/content/mimic-iv-note/
+- PhysioNet credentialed access and data-use terms: https://physionet.org/content/mimiciv/view-dua/1.0/
+- OMOP Common Data Model: https://www.ohdsi.org/data-standardization/the-common-data-model/
+- OHDSI Athena vocabulary access: https://athena.ohdsi.org/
+- MedCAT: https://github.com/CogStack/MedCAT
+
+The recipe-only silver dataset companion repository is:
+- https://github.com/clinical-ontology-embeddings/omop-medcat-silver

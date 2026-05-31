@@ -1,0 +1,12 @@
+{
+  "architecture": "SapBERT full-memory span-lattice pair-MLP accept scorer",
+  "concept_memory": {
+    "redistribution": "not_included_without_license_confirmation",
+    "status": "regeneration_required"
+  },
+  "decision_threshold": 0.45,
+  "public_model_name": "HOVE Risk-Control Linker",
+  "release_id": "hove-risk-control-linker",
+  "row_level_predictions": "not_included",
+  "task": "severe-error and high-distance false-positive risk control"
+}

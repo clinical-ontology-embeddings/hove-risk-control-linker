@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+.env.*
+data/
+experiments/
+wandb/
+lightning_logs/
+logs/
+*.jsonl
+!docs/public_release/performance_tables.json
+!release/hove-risk-control-linker/manifest.json
+!release/hove-risk-control-linker/risk_control_linker_config.json

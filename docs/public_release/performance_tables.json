@@ -1,0 +1,166 @@
+{
+  "ablation_rows": [
+    {
+      "exact": 0.4794,
+      "f1": 0.666,
+      "hdfp_per_row": 0.161,
+      "link_acc": 0.9119,
+      "name": "final true risk-aware near123",
+      "positive_rate": 0.3487,
+      "severity_per_gold": 2.8358,
+      "threshold": 0.45
+    },
+    {
+      "exact": 0.4691,
+      "f1": 0.6449,
+      "hdfp_per_row": 0.2121,
+      "link_acc": 0.9137,
+      "name": "matched true risk-aware near123",
+      "positive_rate": 0.3493,
+      "severity_per_gold": 3.0236,
+      "threshold": 0.1
+    },
+    {
+      "exact": 0.4706,
+      "f1": 0.6091,
+      "hdfp_per_row": 0.2155,
+      "link_acc": 0.9944,
+      "name": "exact-only",
+      "positive_rate": 0.3184,
+      "severity_per_gold": 3.1339,
+      "threshold": 0.05
+    },
+    {
+      "exact": 0.471,
+      "f1": 0.6458,
+      "hdfp_per_row": 0.2439,
+      "link_acc": 0.9065,
+      "name": "randomized risk-aware near123",
+      "positive_rate": 0.3521,
+      "severity_per_gold": 3.0639,
+      "threshold": 0.05
+    },
+    {
+      "exact": 0.4708,
+      "f1": 0.6426,
+      "hdfp_per_row": 0.2411,
+      "link_acc": 0.914,
+      "name": "degree-depth-random risk-aware near123",
+      "positive_rate": 0.3498,
+      "severity_per_gold": 3.067,
+      "threshold": 0.05
+    },
+    {
+      "exact": 0.4713,
+      "f1": 0.6436,
+      "hdfp_per_row": 0.2289,
+      "link_acc": 0.9133,
+      "name": "with ontology node features",
+      "positive_rate": null,
+      "severity_per_gold": 3.0537,
+      "threshold": 0.05
+    }
+  ],
+  "bootstrap_deltas": [
+    {
+      "exact": 0.022272682801411592,
+      "exact_ci": [
+        0.021747195397014363,
+        0.022759248719408043
+      ],
+      "f1": 0.08994028909240104,
+      "f1_ci": [
+        0.08906992589429197,
+        0.09056924872563021
+      ],
+      "hdfp": -0.3764982636944102,
+      "hdfp_ci": [
+        -0.3786445614428139,
+        -0.3740159067995967
+      ],
+      "link_acc": 0.0006277884245995402,
+      "link_acc_ci": [
+        0.00010036462134466184,
+        0.0011722300275477382
+      ],
+      "severity": -1.0590366023749338,
+      "severity_ci": [
+        -1.0661753150473396,
+        -1.0501099370360611
+      ],
+      "variant": "linker_vs_risk_scalar"
+    },
+    {
+      "exact": 0.014279636046752364,
+      "exact_ci": [
+        0.013847686819786653,
+        0.01468481048471737
+      ],
+      "f1": 0.09399952767814757,
+      "f1_ci": [
+        0.09335272671716255,
+        0.0946450672903788
+      ],
+      "hdfp": -0.4506822000672118,
+      "hdfp_ci": [
+        -0.4532765766774952,
+        -0.4481774392293043
+      ],
+      "link_acc": 0.003005696537656477,
+      "link_acc_ci": [
+        0.0025284063277124513,
+        0.003468313449595861
+      ],
+      "severity": -1.201002486877342,
+      "severity_ci": [
+        -1.208488212463,
+        -1.1920750261138107
+      ],
+      "variant": "linker_vs_base_scalar"
+    }
+  ],
+  "main_rows": [
+    {
+      "exact": 0.484,
+      "f1": 0.431,
+      "hdfp_per_row": 1.9527,
+      "link_acc": 0.9007,
+      "name": "unfiltered top3",
+      "severity_per_gold": 7.3207
+    },
+    {
+      "exact": 0.4721,
+      "f1": 0.5572,
+      "hdfp_per_row": 0.7326,
+      "link_acc": 0.9123,
+      "name": "similarity >=0.85",
+      "severity_per_gold": 4.3149
+    },
+    {
+      "exact": 0.4651370740397764,
+      "f1": 0.5719734921498721,
+      "hdfp_per_row": 0.6117217430267727,
+      "link_acc": 0.9088892248048229,
+      "name": "base scalar reference",
+      "severity_per_gold": 4.036752543190438
+    },
+    {
+      "exact": 0.45714402728511716,
+      "f1": 0.5760327307356187,
+      "hdfp_per_row": 0.5375378066539711,
+      "link_acc": 0.9112671329178799,
+      "name": "risk-aware scalar reference",
+      "severity_per_gold": 3.89478665868803
+    },
+    {
+      "exact": 0.47941671008652875,
+      "f1": 0.6659730198280197,
+      "hdfp_per_row": 0.16103954295956088,
+      "link_acc": 0.9118949213424794,
+      "name": "HOVE Risk-Control Linker",
+      "severity_per_gold": 2.8357500563130964
+    }
+  ],
+  "public_model_name": "HOVE Risk-Control Linker",
+  "release_id": "hove-risk-control-linker"
+}

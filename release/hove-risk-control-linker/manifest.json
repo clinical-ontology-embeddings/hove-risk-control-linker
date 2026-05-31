@@ -1,0 +1,88 @@
+{
+  "checkpoint": {
+    "bytes": 3180985,
+    "config": {
+      "bytes": 452,
+      "filename": "risk_control_linker_config.json",
+      "sha256": "716ac721a2ec5f505d8bf5280475572ece63b0aab7c01faf8401795afe0f8112",
+      "status": "packaged"
+    },
+    "filename": "risk_control_linker.pt",
+    "sha256": "89f35d3efffb6aab29b1ea1b6e01bbf6c9cfc49acf25e91bcbeac3148c210781",
+    "status": "packaged"
+  },
+  "concept_memory": {
+    "allowed": [],
+    "reason": "Concept-memory bundle is not included in the public package.",
+    "status": "excluded"
+  },
+  "figure_report": {
+    "expected": {
+      "included": [
+        "hove_risk_control_linker_overview.png",
+        "hove_risk_control_linker_overview.pdf",
+        "risk_control_pipeline.png",
+        "risk_control_pipeline.pdf",
+        "risk_frontier.png",
+        "risk_frontier.pdf"
+      ],
+      "missing": []
+    }
+  },
+  "figures": {
+    "hove_risk_control_linker_overview.pdf": {
+      "bytes": 161380,
+      "destination": "docs/public_release/figures/hove_risk_control_linker_overview.pdf",
+      "sha256": "e991479dc97089c8fc615f478b4989c26ed4fa295f51a10b627b2fd3b432f900",
+      "status": "included",
+      "variant": "overview"
+    },
+    "hove_risk_control_linker_overview.png": {
+      "bytes": 1199731,
+      "destination": "docs/public_release/figures/hove_risk_control_linker_overview.png",
+      "sha256": "5b030ff2316ce11cc04e5a9b0afab72604f0e5aa6c2d7011abed8d6cf549c86d",
+      "status": "included",
+      "variant": "overview"
+    },
+    "risk_control_pipeline.pdf": {
+      "bytes": 29295,
+      "destination": "docs/public_release/figures/risk_control_pipeline.pdf",
+      "sha256": "b9fd31b979c281473d9342d930649358b27559b202d1fca6866de91e097f0d21",
+      "status": "included",
+      "variant": "pipeline"
+    },
+    "risk_control_pipeline.png": {
+      "bytes": 14615,
+      "destination": "docs/public_release/figures/risk_control_pipeline.png",
+      "sha256": "21355b7018e4babd8a86ea24c4be6c597e7a4e1cedd158e371e37f1d0bdf62c8",
+      "status": "included",
+      "variant": "pipeline"
+    },
+    "risk_frontier.pdf": {
+      "bytes": 357925,
+      "destination": "docs/public_release/figures/risk_frontier.pdf",
+      "sha256": "1da7a97082d36146c96e608592f7fa50a398b03ed9030b31929f2ad33f6dbb27",
+      "status": "included",
+      "variant": "frontier"
+    },
+    "risk_frontier.png": {
+      "bytes": 1249879,
+      "destination": "docs/public_release/figures/risk_frontier.png",
+      "sha256": "22353c66b994bc850d7f88e6120529e5e58a2fa6ef901ba35f15ca18d77a26e5",
+      "status": "included",
+      "variant": "frontier"
+    }
+  },
+  "public_files": {
+    "checkpoint_config": "release/hove-risk-control-linker/risk_control_linker_config.json",
+    "model_card": "docs/public_release/model_card.md",
+    "performance_tables_json": "docs/public_release/performance_tables.json",
+    "performance_tables_md": "docs/public_release/performance_tables.md"
+  },
+  "public_model_name": "HOVE Risk-Control Linker",
+  "release_id": "hove-risk-control-linker",
+  "row_level_predictions": {
+    "reason": "No row-level prediction files are included.",
+    "status": "excluded"
+  }
+}
